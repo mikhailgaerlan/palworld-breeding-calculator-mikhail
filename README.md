@@ -21,11 +21,11 @@ Example 1: `python calculator.py Lamball Warsect`
 
 Output 1:
 ```
-Found 112 path(s) with length 3
+Found 136 path(s) with length 3
 Sample path:
 Lamball + Tanzee = Jolthog
-Blazamut + Jolthog = Univolt
-Blazamut + Univolt = Warsect
+Jolthog + Blazamut = Univolt
+Univolt + Blazamut = Warsect
 ```
 
 Example 2: `python calculator.py Lamball Penking Digtoise`
@@ -35,10 +35,10 @@ Output 2:
 Found 6 path(s) in 5 gen(s) with score 5
 Sample path:
 [Lamball + Penking = Verdash]
-[Verdash + Penking = Tombat]
-[Tombat + Lamball = Lunaris]
-[Tombat + Lunaris = Caprity]
-[Tombat + Caprity = Digtoise]
+[Penking + Verdash = Tombat]
+[Tombat + Penking = Bushi]
+[Lamball + Bushi = Direhowl]
+[Bushi + Direhowl = Digtoise]
 ```
 
 ## Python Example
@@ -53,11 +53,11 @@ paths = path_finder.find_path('Warsect')
 
 Output 1:
 ```
-Found 112 path(s) with length 3
+Found 136 path(s) with length 3
 Sample path:
 Lamball + Tanzee = Jolthog
-Blazamut + Jolthog = Univolt
-Blazamut + Univolt = Warsect
+Jolthog + Blazamut = Univolt
+Univolt + Blazamut = Warsect
 ```
 Example 1:
 ```python
@@ -72,8 +72,8 @@ Output 2:
 Found 6 path(s) in 5 gen(s) with score 5
 Sample path:
 [Lamball + Penking = Verdash]
-[Verdash + Penking = Tombat]
-[Tombat + Lamball = Lunaris]
-[Tombat + Lunaris = Caprity]
-[Tombat + Caprity = Digtoise]
+[Penking + Verdash = Tombat]
+[Tombat + Penking = Bushi]
+[Lamball + Bushi = Direhowl]
+[Bushi + Direhowl = Digtoise]
 ```
