@@ -63,7 +63,7 @@ Example 1:
 ```python
 from calculator import PalworldParentPathFinder
 
-path_finder = PalworldParentPathFinder('Lamball', 'Penking)
+path_finder = PalworldParentPathFinder('Lamball', 'Penking')
 paths = path_finder.find_path('Digtoise')
 ```
 
